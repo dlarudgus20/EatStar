@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+# Dependency files
+*.d
+
+# info files
+*.map
+
+# EatStar save files
+*.NSIII
