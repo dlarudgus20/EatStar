@@ -1,4 +1,4 @@
-# Copyright (c) 2014, ÀÓ°æÇö (dlarudgus20)
+# Copyright (c) 2014, ìž„ê²½í˜„ (dlarudgus20)
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -53,7 +53,7 @@ DIR_DEPENS := $(DIR_IMG) $(DIR_BIN) $(DIR_DEP) $(DIR_OBJ) $(DIR_GEN)
 GDB := gdb
 
 # flags
-CXXFLAGS += -std=c++11 -I$(DIR_SRC) -Wall -Wextra -Werror -Wno-unused-parameter
+CXXFLAGS += -std=c++11 -I$(DIR_SRC) -Wall -Wextra -Werror -pedantic -Wno-unused-parameter
 
 ifeq ($(CONFIG), Release)
 CXXFLAGS += -DNDEBUG -O3 -flto
